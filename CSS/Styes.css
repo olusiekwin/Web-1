@@ -1,0 +1,44 @@
+* {
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(233, 245, 233);
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #fff;
+  padding: 0.5em;
+}
+
+.nav-link {
+  color: #000;
+  border: 0.1em solid green;
+  margin: 0.2em;
+  padding: 0.2em;
+  border-radius : 15px;
+}
+
+.nav-link:hover {
+  color: #fff;
+  background-color: green;
+}
+
+ul {
+  list-style-type: none;
+}
+footer {
+  text-align: center;
+  background: var(--black);
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
