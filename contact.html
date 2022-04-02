@@ -9,24 +9,54 @@
     <link rel="stylesheet" href="CSS/Styes.css" />
   </head>
   <body>
-  <!--Navgation Bar-->
-  <nav class="navbar">
-    <a class="nav-link" href="index.html">Home </a>
-    <a class="nav-link" href="about.html">About </a> 
-    <a class="nav-link" href="projects.html">Projects </a>
-    <a class="nav-link" href="blog.html">Blog </a>
-    <a class="nav-link" href="contact.html">Contact </a>
-    <a class="nav-link" href="https://docs.google.com/document/d/1fp83YPOlwZMW2-xJ1Lpnm2gtnPGogahIWdbtbhJlKPU/edit?usp=sharing">Resume</a>
-  </nav>
+        <!--Navgation Bar-->
+        <div id ="box">
+          <nav class="navbar">
+            <a class="nav-link" href="index.html">Home </a>
+            <a class="nav-link" href="about.html">About </a>
+            <a class="nav-link" href="projects.html">Projects </a>
+            <a class="nav-link" href="blog.html">Blog </a>
+            <a class="nav-link" href="contact.html">Contact </a>
+            <a
+              class="nav-link"
+              href="https://docs.google.com/document/d/1fp83YPOlwZMW2-xJ1Lpnm2gtnPGogahIWdbtbhJlKPU/edit?usp=sharing" >Resume</a>
+          </nav>
+          </div>
     <!--Hero/Jumbotron Section-->
-    <header>
-      <h1>Drop me a request</h1>
-      <p>Chat about projects, give feedback and share new ideas</p>
-    </header>
-    <!--main page content-->
-    <main>
-      
-    </main>
+    <div class="contact">
+      <header>
+        <h1>Contact Me.</h1>
+      </header>
+      <form>
+        <div class="row">
+          <div class="input-group">
+            <input type="text" id="name" required />
+            <label for="name"><i class="fa fa-user"></i>Name*</label>
+          </div>
+          <div class="input-group">
+            <input type="text" id="number" required />
+            <label for="number"><i class="fa fa-phone"></i>Phone No.</label>
+          </div>
+        </div>
+        <div class="input-group">
+          <input type="text" id="email" required />
+          <label for="email"><i class="fa fa-envelope"></i>Email</label>
+        </div>
+        <div class="input-group">
+          <input type="text" id="project" required />
+          <label for="project"
+            ><i class="fa fa-settings"></i>Project Type</label
+          >
+        </div>
+        <div class="input-group">
+          <textarea id="message" rows="8" required></textarea>
+          <label for="message"
+            ><i class="fa fa-comments"></i>Your Message</label
+          >
+        </div>
+        <button type="submit"><i class="fa fa-paper-plane"></i>Send</button>
+      </form>
+    </div>
  <footer>
    <!-- <li><a href="http://github.com/olusiekwin">GitHub</a></li>
     <li>
@@ -38,15 +68,14 @@
       <li><a href="https://medium.com/@olusiekwingraham">Medium</a></li>
       <li><a href="mailto:olusiekwingraham@gmail.com">Mail</a></li>
     -->
-      <i class="fa-brands fa-github"></i>
-      <i class="fa-brands fa-twitter"></i>
-      <i class="fa-brands fa-linkedin"></i>
+    <a href="https://www.linkedin.com/in/graham-olusiekwin-6655a620b/"><i class="fa-brands fa-linkedin-square"></i></a>
+      <i class="fa-brands fa-twitter-square"></i>
+      <i class="fa-brands fa-github-square"></i>
       <i class="fa-brands fa-instagram-square"></i>
-      <i class="fa-brands fa-medium"></i>
-      <i class="fa-solid fa-envelope"></i>
+      <i class="fa-brands fa-medium-square"></i>
+      <i class="fa-solid fa-envelope-square"></i>
 </ul>
-<p class="text-center">&copy; 2022. All rights reserved. &trade;Gramm</p>
-
+<p class="text-center">&copy;<script>document.write(new Date().getFullYear())</script>, rights reserved. &trade;Gramm</p>
 </footer>
   </body>
 </html>
