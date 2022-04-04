@@ -68,7 +68,7 @@ a.nav-link {
   display: inline-block;
 }
 .navbar {
-  padding: 1;
+  padding: 5px;
   text-align: center;
   position: fixed;
   margin: 2% auto;
