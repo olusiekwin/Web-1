@@ -68,7 +68,7 @@ a.nav-link {
   display: inline-block;
 }
 .navbar {
-  padding: 5px;
+  padding: 30px;
   text-align: center;
   position: fixed;
   margin: 2% auto;
@@ -97,19 +97,7 @@ a.nav-link {
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   padding: 1;
 }
-/**Footer*/
-footer {
-  text-align: center;
-  background-color: #485461;
-  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
-  padding: 2rem 1rem;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  font-weight: bold;
-}
+
 
 /* *contact page */
 .contact {
@@ -250,4 +238,18 @@ textarea:valid ~ label {
     grid-column: 1;
     grid-row: 5;
   }
+}
+
+/**Footer*/
+footer {
+  text-align: center;
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+  padding: 2rem 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  font-weight: bold;
 }
